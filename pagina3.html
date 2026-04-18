@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabla</title>
+    <style>
+        body{
+            font-family: "Times New Roman", serif;
+            margin: 0;
+            background-color: #f2f4f8;
+            color: #222;
+        }
+
+        header{
+            background-color: #1f3c88;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        header h1{
+            margin: 0;
+            text-decoration: underline;
+        }
+
+        nav{
+            background-color: #163172;
+            text-align: center;
+            padding: 12px;
+        }
+
+        nav a{
+            color: white;
+            text-decoration: none;
+            margin: 0 12px;
+            font-weight: bold;
+            padding: 8px 12px;
+            border-radius: 6px;
+        }
+
+        nav a:hover{
+            background-color: #2852b8;
+        }
+
+        main{
+            width: 85%;
+            margin: 25px auto;
+        }
+
+        .caja{
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.15);
+        }
+
+        h2{
+            color: #1f3c88;
+        }
+
+        h3{
+            color: #2852b8;
+        }
+
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td{
+            border: 1px solid #444;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th{
+            background-color: #1f3c88;
+            color: white;
+        }
+
+        tr:nth-child(even){
+            background-color: #edf3ff;
+        }
+
+        footer{
+            background-color: #841f88;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Tabla</h1>
+        <p>Datos organizados en filas y columnas</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="Pagina2.html">Imagen</a>
+        <a href="pagina3.html">Tabla</a>
+        <a href="pagina4.html">Mapa</a>
+        <a href="pagina5.html">Contacto</a>
+    </nav>
+
+    <main>
+        <section class="caja">
+            <h2>Información de ejemplo</h2>
+            <h3>Tabla HTML</h3>
+
+            <table>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Edad</th>
+                    <th>Ciudad</th>
+                </tr>
+                <tr>
+                    <td>Juan</td>
+                    <td>20</td>
+                    <td>Buenos Aires</td>
+                </tr>
+                <tr>
+                    <td>Ana</td>
+                    <td>22</td>
+                    <td>Córdoba</td>
+                </tr>
+                <tr>
+                    <td>Lucas</td>
+                    <td>19</td>
+                    <td>Rosario</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>Página con tabla de datos</p>
+    </footer>
+
+</body>
+</html>
